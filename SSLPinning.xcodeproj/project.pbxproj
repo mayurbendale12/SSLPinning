@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7743B2EF2D40BC5F00A026F2 /* mocky.cer in Resources */ = {isa = PBXBuildFile; fileRef = 7743B2EE2D40BC5F00A026F2 /* mocky.cer */; };
 		776BE46C2B20365000CFF91F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BE46B2B20365000CFF91F /* AppDelegate.swift */; };
 		776BE46E2B20365000CFF91F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BE46D2B20365000CFF91F /* SceneDelegate.swift */; };
 		776BE4702B20365000CFF91F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BE46F2B20365000CFF91F /* ViewController.swift */; };
 		776BE4732B20365000CFF91F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776BE4712B20365000CFF91F /* Main.storyboard */; };
 		776BE4752B20365100CFF91F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776BE4742B20365100CFF91F /* Assets.xcassets */; };
 		776BE4782B20365100CFF91F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776BE4762B20365100CFF91F /* LaunchScreen.storyboard */; };
-		7776F8162B20AE4800F5308A /* mocky.cer in Resources */ = {isa = PBXBuildFile; fileRef = 7776F8152B20AE4800F5308A /* mocky.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7743B2EE2D40BC5F00A026F2 /* mocky.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = mocky.cer; sourceTree = "<group>"; };
 		776BE4682B20365000CFF91F /* SSLPinning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLPinning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		776BE46B2B20365000CFF91F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		776BE46D2B20365000CFF91F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		776BE4742B20365100CFF91F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		776BE4772B20365100CFF91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		776BE4792B20365100CFF91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7776F8152B20AE4800F5308A /* mocky.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = mocky.cer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		776BE46A2B20365000CFF91F /* SSLPinning */ = {
 			isa = PBXGroup;
 			children = (
-				7776F8152B20AE4800F5308A /* mocky.cer */,
+				7743B2EE2D40BC5F00A026F2 /* mocky.cer */,
 				776BE46B2B20365000CFF91F /* AppDelegate.swift */,
 				776BE46D2B20365000CFF91F /* SceneDelegate.swift */,
 				776BE46F2B20365000CFF91F /* ViewController.swift */,
@@ -128,7 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7776F8162B20AE4800F5308A /* mocky.cer in Resources */,
+				7743B2EF2D40BC5F00A026F2 /* mocky.cer in Resources */,
 				776BE4782B20365100CFF91F /* LaunchScreen.storyboard in Resources */,
 				776BE4752B20365100CFF91F /* Assets.xcassets in Resources */,
 				776BE4732B20365000CFF91F /* Main.storyboard in Resources */,
